@@ -7,7 +7,7 @@ li {
 }
 
 .header {
-  background-color: #26d0c9;
+  background-color: #d02626;
   color: #fff;
   height: 90px;
 }
@@ -66,8 +66,8 @@ li {
 }
 
 .contents-item img{
-  height:200px;
-  width:230px;
+  height:180px;
+  width: auto;
 }
 
 .contact-form {
