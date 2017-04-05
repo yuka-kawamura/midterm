@@ -28,22 +28,9 @@ li {
   padding: 33px 20px;
 }
 
-.main {
-  padding: 130px 100px;
+.contact-form {
+  padding-top: 100px;
 }
-
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.copy-container span {
-  color: red;
-}
-
 
 /* inputとtextareaのCSSを指定してください */
 input, textarea {
@@ -55,18 +42,47 @@ input, textarea {
   border: 1px solid #dee7ec;
 }
 
-.thumbnail{
-  width:300px;
-  height:200px;
+.container-video{
+  text-align: center;
+}
+
+.thumbnail img{
+  float:left;
+  display:inline;
+  width:80px;
+  height:120px;
 }
 
 
-.contact-form{
-  padding-top: 50px;
+
+.container-button{
+text-align: center;
 }
+
+
 /* contact-submitのCSSを指定してください */
 .contact-submit{
   background-color:#dee7ec;
   color:#889eab;
 
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
