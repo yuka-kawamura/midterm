@@ -1,94 +1,73 @@
-h2{
-  margin-left: 30px;
-  }
+img {
 
-
-
-.answers li {
-list-style: upper-alpha;
+    width: 90%;
+    height: 90%;
+    margin-left: 30px;
 }
 
-label {
-margin-left: 0.5em;
-cursor: pointer;
+h1 {
+    text-align: center;
 }
 
-#results {
-background: #dddada;
-color: 000000;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
+.sapporo {
+    position: absolute;
+    bottom: 200px;
+    left: 240px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: #fbeefc;
+    border-left: 6px solid #c92ad2;
+    color: black;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+.furano{
+  position:relative;
+  bottom: 270px;
+  left: 280px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#results:hover {
-background: #3d91b8;
-color: #ffffff;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
+.otaru{
+  position: relative;
+  bottom: 200px;
+  left: 90px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#categorylist {
-margin-top: 6px;
-display: none;
+
+.shiretoko{
+  position: absolute;
+  bottom: 250px;
+  left: 600px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
-display: none;
-}
-
-#closing {
-display: none;
-font-style: italic;
-}
-
-.answers li {
-list-style: upper-alpha;
-}
-
-label {
-margin-left: 0.5em;
-cursor: pointer;
-}
-
-#results {
-background: #dddada;
-color: 000000;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#results:hover {
-background: #3d91b8;
-color: #ffffff;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#categorylist {
-margin-top: 6px;
-display: none;
-}
-
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
-display: none;
-}
-
-#closing {
-display: none;
-font-style: italic;
-}
 
 /* contact-submitのCSSを指定してください */
 .contact-submit{

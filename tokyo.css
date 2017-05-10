@@ -1,93 +1,143 @@
-h2{
-  margin-left: 30px;
-  }
-
-
-
-.answers li {
-list-style: upper-alpha;
+img {
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin-left: 30px;
 }
 
-label {
-margin-left: 0.5em;
-cursor: pointer;
+h1 {
+    text-align: center;
 }
 
-#results {
-background: #dddada;
-color: 000000;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
+.tokyostation {
+    position: absolute;
+    bottom: 230px;
+    left: 710px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: #fbeefc;
+    border-left: 6px solid #c92ad2;
+    color: black;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+.shinjyuku{
+  position: absolute;
+  bottom: 300px;
+  left: 60px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#results:hover {
-background: #3d91b8;
-color: #ffffff;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
+.shibuya{
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
+}
+.shinagawa{
+  position: absolute;
+  bottom: 10px;
+  left: 560px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#categorylist {
-margin-top: 6px;
-display: none;
+.roppongi{
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
-display: none;
+.ueno{
+  position: absolute;
+  bottom: 400px;
+  left: 600px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-#closing {
-display: none;
-font-style: italic;
+.tsukiji{
+  position: absolute;
+  bottom: 20px;
+  left: 820px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
+
 }
 
-.answers li {
-list-style: upper-alpha;
-}
+.narita{
+  position: absolute;
+  bottom: 200px;
+  left: 1000px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
 
-label {
-margin-left: 0.5em;
-cursor: pointer;
 }
+.asakusa{
+  position:absolute;
+  bottom: 280px;
+  left: 860px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  background-color: #fbeefc;
+  border-left: 6px solid #c92ad2;
+  color: black;
+  margin: 0.5em 0;
+  padding: 0.5em;
 
-#results {
-background: #dddada;
-color: 000000;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#results:hover {
-background: #3d91b8;
-color: #ffffff;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#categorylist {
-margin-top: 6px;
-display: none;
-}
-
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
-display: none;
-}
-
-#closing {
-display: none;
-font-style: italic;
 }
 
 /* contact-submitのCSSを指定してください */

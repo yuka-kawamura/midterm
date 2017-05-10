@@ -1,95 +1,21 @@
-h2{
-  margin-left: 30px;
-  }
-
-
-
-.answers li {
-list-style: upper-alpha;
+#blog {
+margin-left:20%;
+font-size: 14px;
+text-align: left;
+margin-top: 0px;
+width: 700px;
 }
 
-label {
-margin-left: 0.5em;
-cursor: pointer;
+img {
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    margin-left: 30px;
 }
 
-#results {
-background: #dddada;
-color: 000000;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
+h1 {
+    text-align: center;
 }
-
-#results:hover {
-background: #3d91b8;
-color: #ffffff;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#categorylist {
-margin-top: 6px;
-display: none;
-}
-
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
-display: none;
-}
-
-#closing {
-display: none;
-font-style: italic;
-}
-
-.answers li {
-list-style: upper-alpha;
-}
-
-label {
-margin-left: 0.5em;
-cursor: pointer;
-}
-
-#results {
-background: #dddada;
-color: 000000;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#results:hover {
-background: #3d91b8;
-color: #ffffff;
-padding: 3px;
-text-align: center;
-width: 200px;
-cursor: pointer;
-border: 1px solid gray;
-}
-
-#categorylist {
-margin-top: 6px;
-display: none;
-}
-
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
-display: none;
-}
-
-#closing {
-display: none;
-font-style: italic;
-}
-
 /* contact-submitのCSSを指定してください */
 .contact-submit{
   background-color:#dee7ec;
@@ -263,5 +189,3 @@ font-style: italic;
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
-}
